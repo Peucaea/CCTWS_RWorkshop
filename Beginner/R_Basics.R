@@ -9,6 +9,20 @@
 #   2. Object names can include letters, numbers, '.', and '_' but must START with a letter (and are case-sensitive)
 #   3. Use the 'Help' tab to look up the documentation for any function
 
+########################
+####  R Studio Tour #### 
+########################
+
+# What am I looking at?
+# Four panels
+# - Writing/editing scripts
+# - - New script/Save
+# - Environment/History
+# - - See the objects you're working with
+# - Console
+# - - Code output
+# - Files/Plots/Packages/Help/Viewer
+# - - Open new files, view plots, manage packages, get help
 
 ########################
 ####  Demonstration #### 
@@ -96,6 +110,17 @@ n_mat_c[,2]
 n_df$n_vec
 class(n_df)
 class(n_df$n_vec)
+
+# Let's go 3D: arrays (stack of matrices/datframes)
+m1 <- matrix(data=rep(1,4),nrow=2,ncol=2)
+m2 <- matrix(data=rep(2,4),nrow=2,ncol=2)
+m3 <- matrix(data=rep(3,4),nrow=2,ncol=2)
+a <- array(data=c(m1,m2,m3),dim=c(2,2,3))
+
+a
+a[,,1]
+a[,1,]
+a[1,,]
 
 #####################
 ####  Exercises  ####
