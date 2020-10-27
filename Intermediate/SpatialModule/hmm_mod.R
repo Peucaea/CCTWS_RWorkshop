@@ -38,18 +38,18 @@ map.cities(CO.cities, country="CO",pch=17,cex=1.5,label=TRUE)
 ####
 # Import shape file 
 library(rgdal)
-colorado_shp <- readOGR(dsn = "shapefiles/colorado/colorado.shp")
+colorado_shp <- readOGR(dsn = "Intermediate/shapefiles/colorado/colorado.shp")
 plot(colorado_shp)
 
 # Import KML file
-mtlion_kml <- readOGR(dsn = "mtlion.kml")
+mtlion_kml <- readOGR(dsn = "Intermediate/mtlion.kml")
 plot(mtlion_kml, pch = 1, cex = 0.75, col = "blue")
 
 plot(colorado_shp)
 points(mtlion_kml, pch = 1, cex = 0.75, col = "blue")
 
 # Import points data
-mtlion <- read.table("mtlion.csv", header=T, sep=",")  
+mtlion <- read.table("Intermediate/SpatialModule/mtlion.csv", header=T, sep=",")  
 View(mtlion)
 points(mtlion$Longitude, y = mtlion$Latitude, pch = 1, cex = 0.3, col = "red")
 
@@ -128,7 +128,7 @@ cellStats(r, stat = mean)
 cellStats(r, stat = max)
 
 # Raster example 
-nlcd <- raster("fort_collins.tif") 
+nlcd <- raster("Intermediate/fort_collins.tif") 
 crs(nlcd)
 res(nlcd) #resolution in the units 
 ncell(nlcd) # total number of cells in the raster
@@ -175,7 +175,7 @@ nlcd_plot <- levelplot(nlcd, col.regions=land_col, xlab="", ylab="", main="Great
 nlcd_plot
 
 # Crop to a smaller area 
-citypark_shp <- readOGR(dsn = "shapefiles/City_Park/City_Park.shp")
+citypark_shp <- readOGR(dsn = "Intermediate/shapefiles/City_Park/City_Park.shp")
 crs(citypark_shp)
 crs(nlcd) #these are not identical, but very close, so will work for our use
 
@@ -197,7 +197,7 @@ writeRaster(nlcd_crop, filename="nlcd_cropped.tif", format = "GTiff")
 ## lion home range
 
 # Read in elevation raster
-elevation <- raster("elevation.tif")
+elevation <- raster("Intermediate/SpatialModule/elevation.tif")
 plot(elevation)
 
 # Project mtn lion data to match raster 
