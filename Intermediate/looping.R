@@ -46,7 +46,7 @@ running.mean
 # Loops are useful for random walks!
 xy <- matrix(data=0,nrow=10,ncol=2) #columns = coordinates
 for(t in 2:10){
-  xy[t,] <- rnorm(2,xy[t-1,],0.5)
+  xy[t,] <- rnorm(n=2,mean=xy[t-1,],sd=0.5)
 }
 
 plot(xy[,1],xy[,2])
