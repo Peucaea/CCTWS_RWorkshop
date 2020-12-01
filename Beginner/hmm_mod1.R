@@ -13,6 +13,12 @@
 ########################
 ####  Demonstration #### 
 ########################
+####
+#### Working directories
+####
+
+
+
 library(palmerpenguins)
 data("penguins")
 
@@ -26,7 +32,7 @@ penguins <- read.csv("penguins.csv", header = TRUE)
 library(readxl) 
 
 ####
-####  Data details  - talk abotu why cleaning in R is useful (reproducability)
+####  Data details  - talk about why cleaning in R is useful (reproducability)
 ####
 
 # Structure 
@@ -57,6 +63,8 @@ str(penguins$bill_length_mm)
 
 summary(penguins)
 
+#Matrix vs data.frame
+
 ####
 ####  Subsetting data 
 ####
@@ -81,19 +89,11 @@ write.csv(adelie_penguins, "adelie_penguins.csv")
 ####  Exercises  ####
 #####################
 
-####
+#### 
 ####   
 ####
 # 1. Load the dataset 'penguins_raw' into R and look at the structure of the variables
           # Int vs num vs chr vs fact
 
-####
-####  Basic Images 
-####
-
-
-####
-####  Basic Movies 
-####
-
+# 2. 
 
