@@ -79,7 +79,7 @@ crs(mtlion_kml)
 wgs <- crs(colorado_shp)
 albers_projection <- "+proj=aea +lat_0=23 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
 
-colorado_shp_aea <- spTransform(colorado_shp, albers_projection)
+colorado_shp_aea <- spTransform(colorado_shp, albers_projection) #transform from one crs to another 
 crs(colorado_shp_aea)
 plot(colorado_shp_aea)
 plot(colorado_shp)
@@ -87,10 +87,11 @@ plot(colorado_shp)
 ####
 ####  Points & polygons data 
 ####
-# Let's turn mtlion dataframe into spatial data 
+# Let's turn mtlion dataframe (csv) into spatial data 
 mtlion_pts <- mtlion
-coordinates(mtlion_pts) <-  ~Longitude + Latitude
+coordinates(mtlion_pts) <-  ~Longitude + Latitude #x coord + y coord
 
+mtlion_pts
 head(mtlion_pts@data)
 head(mtlion)
 
@@ -139,7 +140,10 @@ plot(nlcd) # may take a few seconds
 csu <- c(-105.081631,40.575047) #plot this ontop of 
 points(csu) # Why doesn't this work? ...
 
+#####
 #... Not the right projection, 
+
+
 #####
 # Brief exercise: turn this CSU point into a spatial object with a crs and project 
 # it so that it it plots on the map of fort collins
@@ -157,7 +161,7 @@ unique(nlcd)
 #add names of categories to raster layer
 land_cover <-  levels(nlcd)[[1]]
 
-#these are the names of the landcover types. The order here maters and aligns with factor order, i.e., 11, 21, 22...
+#these are the names of the landcover types. The order here matters and aligns with factor order, i.e., 11, 21, 22...
 land_cover[,"landcover"] <- c("Open Water", "Developed, Open Space","Developed, Low Intensity",
                              "Developed, Medium Intensity","Developed, High Intensity",
                              "Barren Land","Deciduous Forest", "Evergreen Forest","Mixed Forest",
@@ -166,7 +170,7 @@ land_cover[,"landcover"] <- c("Open Water", "Developed, Open Space","Developed, 
 levels(nlcd) <- land_cover
 print(land_cover)
 
-#assign a color for each landcover type. This is a fairly standard cover scheme for NLCD. Again, the order maters. 
+#assign a color for each landcover type. This is a fairly standard cover scheme for NLCD. Again, the order matters. 
 land_col <-  c("#4f6d9f", "#decece", "#d29b85", "#de3021", "#9d1f15",
              "#b2afa5", "#7aa76d", "#336338", "#c0cb99","#cebb89", "#edecd0",
              "#ddd75c", "#a67538", "#bfd7eb", "#7ba3be")
@@ -186,6 +190,15 @@ plot(citypark_shp, add = T)
 nlcd_crop <- crop(nlcd, citypark_shp)
 plot(nlcd_crop)
 plot(citypark_shp, add = T)
+levelplot(nlcd_crop, col.regions=land_col, xlab="", ylab="", main="City Park NLCD")
+
+#Another handy cropping note
+ext <- drawExtent() #this is handy but not reproducible unless you save the values
+ext
+ext_save <- c(ext[1:4])
+nlcd_crop2 <- crop(nlcd, ext)
+
+plot(nlcd_crop2)
 
 # Write this new raster out as an image file
 writeRaster(nlcd_crop, filename="nlcd_cropped.tif", format = "GTiff")
@@ -212,11 +225,8 @@ plot(elevation)
 points(mtlion_proj) 
 
 # crop to a smaller raster around the points
-ext <- drawExtent() # This is handy, but not reproducible unless you save the values by hand
-ext
-ext_save <- c(ext[1:4])
+     ## Crop using a method of your choosing -fill in code here ##
 
-elev_crop <- crop(elevation, ext)
 plot(elev_crop)
 points(mtlion_proj)
 
@@ -228,4 +238,5 @@ mtlion$elevation <- extract(elev_crop, mtlion_proj)
 View(mtlion) # have to be a little careful to keep the elevations associated with the right observations
 
 # Now can use these values as a variable in analysis
+
 
