@@ -1,0 +1,597 @@
+pointID,visit,date,temp,cloud,species,distance,abundance
+w10,1,114,79,0,spring peeper,5,1
+w10,1,114,79,0,western chorus frog,7,1
+w10,1,114,79,0,green frog,10,2
+w10,1,114,79,0,american bullfrog,35,2
+w09,1,114,79,0,spring peeper,10,2
+w09,1,114,79,0,northern leopard frog,10,1
+w09,1,114,79,0,pickerel frog,40,1
+w09,1,114,79,0,green frog,10,4
+w09,1,114,79,0,american bullfrog,20,3
+w08,1,114,79,0,spring peeper,5,3
+w08,1,114,79,0,western chorus frog,5,1
+w08,1,114,79,0,northern leopard frog,5,1
+w08,1,114,79,0,green frog,10,2
+w08,1,114,79,0,american bullfrog,45,2
+w07,1,114,79,0,gray tree frog,20,2
+w07,1,114,79,0,spring peeper,15,2
+w07,1,114,79,0,green frog,20,4
+w06,1,114,79,0,spring peeper,5,2
+w06,1,114,79,0,western chorus frog,15,1
+w06,1,114,79,0,green frog,50,3
+w06,1,114,79,0,american toad,30,3
+w05,1,114,79,0,spring peeper,15,4
+w05,1,114,79,0,western chorus frog,5,2
+w05,1,114,79,0,fowler's toad,40,1
+w05,1,114,79,0,green frog,150,4
+w05,1,114,79,0,american toad,75,3
+w05,1,114,79,0,american bullfrog,200,1
+w04,1,114,79,0,spring peeper,10,2
+w04,1,114,79,0,western chorus frog,0,2
+w04,1,114,79,0,green frog,35,4
+w03,1,114,79,0,spring peeper,5,3
+w03,1,114,79,0,western chorus frog,10,3
+w03,1,114,79,0,green frog,30,3
+w03,1,114,79,0,american bullfrog,175,1
+w02,1,114,79,0,spring peeper,5,4
+w02,1,114,79,0,western chorus frog,5,2
+w02,1,114,79,0,green frog,60,3
+w02,1,114,79,0,american bullfrog,120,1
+w01,1,114,79,0,spring peeper,15,1
+w01,1,114,79,0,green frog,0,2
+w01,1,114,79,0,american bullfrog,40,2
+center,1,114,79,0,spring peeper,15,1
+center,1,114,79,0,green frog,75,1
+e10,1,121,73,0,northern leopard frog,5,1
+e10,1,121,73,0,fowler's toad,15,1
+e10,1,121,73,0,pickerel frog,60,2
+e10,1,121,73,0,green frog,20,4
+e10,1,121,73,0,american toad,65,1
+e10,1,121,73,0,american bullfrog,40,2
+e09,1,121,73,0,western chorus frog,5,1
+e09,1,121,73,0,northern leopard frog,5,1
+e09,1,121,73,0,fowler's toad,10,2
+e09,1,121,73,0,green frog,65,3
+e09,1,121,73,0,american bullfrog,55,1
+e08,1,121,73,0,northern leopard frog,5,1
+e08,1,121,73,0,green frog,10,4
+e08,1,121,73,0,american bullfrog,25,1
+e07,1,121,73,0,spring peeper,10,1
+e07,1,121,73,0,western chorus frog,10,1
+e07,1,121,73,0,northern leopard frog,15,1
+e07,1,121,73,0,green frog,150,2
+e06,1,121,73,0,western chorus frog,5,2
+e06,1,121,73,0,green frog,35,4
+e06,1,121,73,0,american bullfrog,40,2
+e05,1,121,73,25,western chorus frog,5,1
+e05,1,121,73,25,northern leopard frog,5,1
+e05,1,121,73,25,green frog,10,4
+e05,1,121,73,25,american bullfrog,130,1
+e04,1,121,73,0,spring peeper,5,1
+e04,1,121,73,0,northern leopard frog,15,1
+e04,1,121,73,0,green frog,10,4
+e04,1,121,73,0,american bullfrog,55,1
+e03,1,121,73,75,spring peeper,15,1
+e03,1,121,73,75,western chorus frog,5,2
+e03,1,121,73,75,northern leopard frog,10,1
+e03,1,121,73,75,fowler's toad,20,2
+e03,1,121,73,75,american bullfrog,60,1
+e02,1,121,73,75,spring peeper,5,3
+e02,1,121,73,75,western chorus frog,5,1
+e02,1,121,73,75,pickerel frog,70,2
+e02,1,121,73,75,green frog,20,3
+e02,1,121,73,75,american bullfrog,20,2
+e01,1,121,73,25,spring peeper,15,1
+e01,1,121,73,25,western chorus frog,10,1
+e01,1,121,73,25,northern leopard frog,10,1
+e01,1,121,73,25,green frog,40,4
+s10,1,132,67,100,spring peeper,15,2
+s10,1,132,67,100,green frog,20,4
+s09,1,132,67,75,gray tree frog,15,2
+s09,1,132,67,75,northern leopard frog,10,1
+s09,1,132,67,75,fowler's toad,20,1
+s09,1,132,67,75,eastern spadefoot,5,1
+s09,1,132,67,75,green frog,10,4
+s09,1,132,67,75,american bullfrog,60,2
+s08,1,132,67,50,northern leopard frog,10,1
+s08,1,132,67,50,green frog,5,4
+s08,1,132,67,50,american toad,10,2
+s08,1,132,67,50,american bullfrog,10,2
+s07,1,132,66,50,spring peeper,15,1
+s07,1,132,66,50,western chorus frog,15,2
+s07,1,132,66,50,fowler's toad,30,2
+s07,1,132,66,50,pickerel frog,60,2
+s07,1,132,66,50,green frog,10,4
+s06,1,132,65,50,western chorus frog,10,4
+s06,1,132,65,50,fowler's toad,10,1
+s06,1,132,65,50,green frog,10,4
+s06,1,132,65,50,american bullfrog,75,1
+s05,1,132,67,75,spring peeper,5,4
+s05,1,132,67,75,western chorus frog,10,2
+s05,1,132,67,75,northern leopard frog,5,1
+s05,1,132,67,75,fowler's toad,10,1
+s05,1,132,67,75,mink frog,40,1
+s05,1,132,67,75,green frog,20,3
+s05,1,132,67,75,american bullfrog,65,2
+s04,1,132,67,50,spring peeper,20,4
+s04,1,132,67,50,western chorus frog,10,2
+s04,1,132,67,50,fowler's toad,30,1
+s04,1,132,67,50,wood frog,55,1
+s04,1,132,67,50,green frog,75,3
+s04,1,132,67,50,american bullfrog,130,1
+s03,1,132,67,75,spring peeper,10,1
+s03,1,132,67,75,western chorus frog,5,3
+s03,1,132,67,75,mountain chorus frog,35,1
+s03,1,132,67,75,green frog,110,1
+s02,1,132,67,100,spring peeper,10,2
+s02,1,132,67,100,western chorus frog,5,1
+s02,1,132,67,100,fowler's toad,25,1
+s02,1,132,67,100,green frog,10,2
+s01,1,132,67,100,spring peeper,10,2
+s01,1,132,67,100,western chorus frog,5,1
+s01,1,132,67,100,mountain chorus frog,50,1
+s01,1,132,67,100,green frog,25,3
+n05,1,133,66,100,spring peeper,20,3
+n05,1,133,66,100,mink frog,40,1
+n05,1,133,66,100,green frog,0,4
+n05,1,133,66,100,american toad,40,2
+n05,1,133,66,100,american bullfrog,25,2
+n03,1,133,66,75,spring peeper,15,2
+n03,1,133,66,75,western chorus frog,25,1
+n03,1,133,66,75,wood frog,20,2
+n03,1,133,66,75,green frog,15,4
+n03,1,133,66,75,american toad,55,1
+n02,1,133,66,75,spring peeper,10,3
+n02,1,133,66,75,western chorus frog,5,1
+n02,1,133,66,75,northern leopard frog,5,1
+n02,1,133,66,75,wood frog,30,1
+n02,1,133,66,75,green frog,30,3
+n02,1,133,66,75,american toad,35,2
+n02,1,133,66,75,american bullfrog,45,2
+n10,1,134,68,0,spring peeper,10,2
+n10,1,134,68,0,northern leopard frog,5,1
+n10,1,134,68,0,fowler's toad,10,2
+n10,1,134,68,0,mink frog,30,1
+n10,1,134,68,0,green frog,65,2
+n10,1,134,68,0,american bullfrog,40,1
+n09,1,134,68,0,spring peeper,5,1
+n09,1,134,68,0,northern leopard frog,5,1
+n09,1,134,68,0,fowler's toad,15,3
+n09,1,134,68,0,green frog,150,4
+n09,1,134,68,0,american toad,10,1
+n09,1,134,68,0,american bullfrog,120,1
+n08,1,134,67,0,spring peeper,5,1
+n08,1,134,67,0,western chorus frog,0,3
+n08,1,134,67,0,northern leopard frog,5,1
+n08,1,134,67,0,american toad,15,4
+n08,1,134,67,0,upland chorus frog,50,1
+n07,1,134,67,0,western chorus frog,5,1
+n07,1,134,67,0,northern leopard frog,10,1
+n07,1,134,67,0,mink frog,30,1
+n07,1,134,67,0,green frog,60,3
+n07,1,134,67,0,american toad,35,2
+n07,1,134,67,0,american bullfrog,75,2
+n06,1,134,67,0,cope's gray tree frog,25,1
+n06,1,134,67,0,spring peeper,5,1
+n06,1,134,67,0,western chorus frog,0,1
+n06,1,134,67,0,fowler's toad,25,2
+n06,1,134,67,0,american toad,35,3
+n04,1,134,68,25,spring peeper,0,1
+n04,1,134,68,25,western chorus frog,5,1
+n04,1,134,68,25,northern leopard frog,5,1
+n04,1,134,68,25,fowler's toad,15,2
+n04,1,134,68,25,wood frog,20,1
+n04,1,134,68,25,green frog,175,4
+n04,1,134,68,25,american toad,50,2
+n04,1,134,68,25,american bullfrog,75,1
+n01,1,134,68,0,northern cricket frog,45,1
+n01,1,134,68,0,spring peeper,0,3
+n01,1,134,68,0,western chorus frog,10,3
+n01,1,134,68,0,fowler's toad,25,1
+n01,1,134,68,0,wood frog,15,1
+n01,1,134,68,0,american bullfrog,50,1
+w10,2,142,60,25,spring peeper,0,2
+w10,2,142,60,25,wood frog,10,1
+w10,2,142,60,25,green frog,0,4
+w09,2,142,54,50,spring peeper,5,4
+w09,2,142,54,50,green frog,20,3
+w08,2,142,54,25,spring peeper,5,4
+w08,2,142,54,25,northern leopard frog,5,1
+w08,2,142,54,25,green frog,40,3
+w08,2,142,54,25,american toad,65,2
+w07,2,142,53,25,gray tree frog,25,1
+w07,2,142,53,25,spring peeper,5,3
+w07,2,142,53,25,fowler's toad,10,1
+w07,2,142,53,25,green frog,5,4
+w06,2,142,53,50,spring peeper,5,3
+w06,2,142,53,50,western chorus frog,5,2
+w06,2,142,53,50,pickerel frog,55,1
+w06,2,142,53,50,green frog,65,4
+w06,2,142,53,50,american toad,40,3
+w05,2,142,56,50,spring peeper,15,4
+w05,2,142,56,50,western chorus frog,5,2
+w05,2,142,56,50,northern leopard frog,5,1
+w05,2,142,56,50,fowler's toad,20,1
+w05,2,142,56,50,green frog,130,4
+w05,2,142,56,50,american toad,30,1
+w04,2,142,56,50,western chorus frog,5,3
+w04,2,142,56,50,green frog,35,4
+w03,2,142,56,50,spring peeper,15,4
+w03,2,142,56,50,western chorus frog,5,2
+w03,2,142,56,50,mountain chorus frog,25,3
+w03,2,142,56,50,green frog,55,2
+w02,2,142,55,50,none,0,0
+,,,,,,,
+,,,,,,,
+,,,,,,,
+w01,2,142,56,50,spring peeper,10,4
+w01,2,142,56,50,western chorus frog,5,1
+w01,2,142,56,50,mountain chorus frog,35,2
+w01,2,142,56,50,green frog,15,4
+center,2,142,56,50,fowler's toad,10,1
+center,2,142,56,50,mountain chorus frog,5,3
+s10,2,145,64,100,spring peeper,10,1
+s10,2,145,64,100,green frog,0,4
+s09,2,145,64,100,spring peeper,5,1
+s09,2,145,64,100,fowler's toad,5,2
+s09,2,145,64,100,green frog,5,4
+s09,2,145,64,100,american bullfrog,15,1
+s09,2,145,64,100,gray tree frog,25,1
+s09,2,145,64,100,upland chorus frog,35,1
+s08,2,145,64,100,northern leopard frog,5,1
+s08,2,145,64,100,green frog,10,4
+s08,2,145,64,100,american bullfrog,50,2
+s08,2,145,64,100,upland chorus frog,35,1
+s07,2,145,64,100,upland chorus frog,40,1
+s07,2,145,64,100,spring peeper,5,1
+s07,2,145,64,100,western chorus frog,0,2
+s07,2,145,64,100,northern leopard frog,5,1
+s07,2,145,64,100,fowler's toad,5,1
+s07,2,145,64,100,mountain chorus frog,25,1
+s07,2,145,64,100,wood frog,50,1
+s07,2,145,64,100,green frog,10,4
+s06,2,145,64,100,western chorus frog,5,2
+s06,2,145,64,100,mountain chorus frog,20,3
+s06,2,145,64,100,wood frog,20,3
+s06,2,145,64,100,green frog,20,4
+e08,2,151,69,100,mountain chorus frog,0,4
+e08,2,151,69,100,wood frog,0,2
+e08,2,151,69,100,green frog,15,4
+e08,2,151,69,100,upland chorus frog,50,1
+e10,2,151,69,0,upland chorus frog,70,2
+e10,2,151,69,0,spring peeper,5,2
+e10,2,151,69,0,western chorus frog,5,2
+e10,2,151,69,0,fowler's toad,15,1
+e10,2,151,69,0,mountain chorus frog,20,4
+e10,2,151,69,0,wood frog,10,3
+e10,2,151,69,0,green frog,5,4
+e10,2,151,69,0,american toad,40,2
+e10,2,151,69,0,american bullfrog,50,1
+e09,2,151,69,0,spring peeper,5,2
+e09,2,151,69,0,western chorus frog,5,3
+e09,2,151,69,0,northern leopard frog,5,2
+e09,2,151,69,0,fowler's toad,5,2
+e09,2,151,69,0,mountain chorus frog,40,1
+e09,2,151,69,0,wood frog,25,3
+e09,2,151,69,0,green frog,60,4
+e07,2,151,69,0,western chorus frog,5,1
+e07,2,151,69,0,northern leopard frog,5,1
+e07,2,151,69,0,fowler's toad,20,1
+e07,2,151,69,0,mountain chorus frog,10,2
+e07,2,151,69,0,wood frog,50,1
+e07,2,151,69,0,green frog,140,3
+e06,2,151,66,25,western chorus frog,5,4
+e06,2,151,66,25,mountain chorus frog,40,2
+e06,2,151,66,25,wood frog,25,2
+e06,2,151,66,25,green frog,50,4
+e05,2,151,66,25,western chorus frog,0,4
+e05,2,151,66,25,mountain chorus frog,5,4
+e05,2,151,66,25,wood frog,40,3
+e05,2,151,66,25,green frog,5,4
+e05,2,151,66,25,upland chorus frog,15,1
+e04,2,151,66,0,upland chorus frog,5,3
+e04,2,151,66,0,spring peeper,10,1
+e04,2,151,66,0,western chorus frog,5,3
+e04,2,151,66,0,fowler's toad,10,2
+e04,2,151,66,0,mountain chorus frog,30,1
+e04,2,151,66,0,wood frog,20,1
+e04,2,151,66,0,green frog,5,4
+e03,2,151,66,0,upland chorus frog,50,1
+e03,2,151,66,0,spring peeper,5,1
+e03,2,151,66,0,western chorus frog,5,3
+e03,2,151,66,0,fowler's toad,10,2
+e03,2,151,66,0,mountain chorus frog,20,1
+e03,2,151,66,0,wood frog,30,3
+e02,2,151,66,0,spring peeper,5,3
+e02,2,151,66,0,western chorus frog,5,3
+e02,2,151,66,0,mountain chorus frog,5,4
+e02,2,151,66,0,wood frog,15,2
+e02,2,151,66,0,green frog,10,2
+e02,2,151,66,0,american bullfrog,70,1
+e01,2,151,66,0,spring peeper,5,1
+e01,2,151,66,0,western chorus frog,5,1
+e01,2,151,66,0,northern leopard frog,15,1
+e01,2,151,66,0,mountain chorus frog,10,4
+e01,2,151,66,0,green frog,5,3
+n10,2,152,65,25,upland chorus frog,45,1
+n10,2,152,65,25,gray tree frog,20,1
+n10,2,152,65,25,spring peeper,5,1
+n10,2,152,65,25,fowler's toad,5,1
+n10,2,152,65,25,mountain chorus frog,15,3
+n10,2,152,65,25,wood frog,10,2
+n10,2,152,65,25,green frog,35,1
+n09,2,152,64,25,upland chorus frog,10,3
+n09,2,152,64,25,spring peeper,5,4
+n09,2,152,64,25,western chorus frog,5,1
+n09,2,152,64,25,northern leopard frog,10,2
+n09,2,152,64,25,fowler's toad,20,2
+n09,2,152,64,25,green frog,160,3
+n09,2,152,64,25,american toad,25,1
+n08,2,152,63,25,upland chorus frog,30,3
+n08,2,152,63,25,western chorus frog,5,4
+n08,2,152,63,25,fowler's toad,30,1
+n08,2,152,63,25,green frog,260,4
+n08,2,152,63,25,american toad,40,4
+n07,2,152,65,50,upland chorus frog,45,2
+n07,2,152,65,50,western chorus frog,0,3
+n07,2,152,65,50,northern leopard frog,5,1
+n07,2,152,65,50,mountain chorus frog,30,3
+n07,2,152,65,50,wood frog,45,1
+n07,2,152,65,50,green frog,80,3
+n06,2,152,65,25,upland chorus frog,5,3
+n06,2,152,65,25,western chorus frog,5,2
+n06,2,152,65,25,fowler's toad,15,2
+n06,2,152,65,25,mountain chorus frog,60,3
+n06,2,152,65,25,green frog,140,2
+n06,2,152,65,25,american toad,70,2
+n05,2,152,64,0,gray tree frog,15,1
+n05,2,152,64,0,spring peeper,5,1
+n05,2,152,64,0,mountain chorus frog,20,2
+n05,2,152,64,0,wood frog,20,2
+n05,2,152,64,0,green frog,10,4
+n05,2,152,64,0,american bullfrog,20,2
+n03,2,152,64,25,upland chorus frog,55,1
+n03,2,152,64,25,mountain chorus frog,15,4
+n03,2,152,64,25,wood frog,20,2
+n03,2,152,64,25,green frog,20,4
+n04,2,152,65,50,upland chorus frog,35,2
+n04,2,152,65,50,spring peeper,5,1
+n04,2,152,65,50,northern leopard frog,5,1
+n04,2,152,65,50,mountain chorus frog,10,4
+n04,2,152,65,50,upland chorus frog,20,1
+n04,2,152,65,50,wood frog,15,1
+n04,2,152,65,50,american toad,40,1
+s05,2,154,63,75,cope's gray tree frog,40,1
+s05,2,154,63,75,spring peeper,5,4
+s05,2,154,63,75,western chorus frog,5,1
+s05,2,154,63,75,northern leopard frog,5,1
+s05,2,154,63,75,mountain chorus frog,50,3
+s05,2,154,63,75,wood frog,20,1
+s05,2,154,63,75,eastern spadefoot,50,1
+s05,2,154,63,75,green frog,35,3
+s04,2,154,62,50,western chorus frog,15,2
+s04,2,154,62,50,fowler's toad,20,2
+s04,2,154,62,50,mountain chorus frog,45,2
+s04,2,154,62,50,green frog,120,3
+s03,2,154,61,25,western chorus frog,10,2
+s03,2,154,61,25,northern leopard frog,10,1
+s03,2,154,61,25,mountain chorus frog,20,4
+s03,2,154,61,25,wood frog,20,1
+s03,2,154,61,25,green frog,140,1
+s02,2,154,61,50,western chorus frog,10,2
+s02,2,154,61,50,mountain chorus frog,15,4
+s02,2,154,61,50,green frog,40,1
+s01,2,154,61,100,cope's gray tree frog,45,1
+s01,2,154,61,100,spring peeper,10,2
+s01,2,154,61,100,western chorus frog,0,4
+s01,2,154,61,100,mountain chorus frog,25,3
+s01,2,154,61,100,wood frog,30,2
+s01,2,154,61,100,green frog,30,3
+n01,2,154,61,0,northern cricket frog,65,1
+n01,2,154,61,0,spring peeper,10,1
+n01,2,154,61,0,fowler's toad,20,1
+n01,2,154,61,0,mountain chorus frog,5,4
+n01,2,154,61,0,american toad,45,1
+n02,2,154,60,0,western chorus frog,10,1
+n02,2,154,60,0,northern leopard frog,10,3
+n02,2,154,60,0,mountain chorus frog,30,4
+n02,2,154,60,0,upland chorus frog,10,2
+n02,2,154,60,0,wood frog,35,1
+n02,2,154,60,0,green frog,40,2
+n02,2,154,60,0,american toad,20,1
+n10,3,160,75,100,blanchard's cricket frog,15,1
+n10,3,160,75,100,spring peeper,5,1
+n10,3,160,75,100,northern leopard frog,5,1
+n10,3,160,75,100,fowler's toad,5,1
+n10,3,160,75,100,mountain chorus frog,15,3
+n10,3,160,75,100,upland chorus frog,5,2
+n10,3,160,75,100,wood frog,25,1
+n10,3,160,75,100,green frog,60,2
+n09,3,160,75,100,spring peeper,10,2
+n09,3,160,75,100,northern leopard frog,5,2
+n09,3,160,75,100,fowler's toad,10,2
+n09,3,160,75,100,upland chorus frog,40,1
+n09,3,160,75,100,green frog,210,4
+n08,3,160,75,100,spring peeper,5,2
+n08,3,160,75,100,western chorus frog,5,1
+n08,3,160,75,100,fowler's toad,15,3
+n08,3,160,75,100,upland chorus frog,0,4
+n08,3,160,75,100,american toad,15,1
+n07,3,160,75,100,western chorus frog,0,4
+n07,3,160,75,100,northern leopard frog,0,2
+n07,3,160,75,100,mountain chorus frog,35,4
+n07,3,160,75,100,upland chorus frog,20,3
+n07,3,160,75,100,wood frog,40,1
+n07,3,160,75,100,boreal toad,40,1
+n07,3,160,75,100,green frog,80,4
+n06,3,160,75,100,western chorus frog,5,4
+n06,3,160,75,100,fowler's toad,10,3
+n06,3,160,75,100,mountain chorus frog,75,4
+n06,3,160,75,100,upland chorus frog,25,2
+n06,3,160,75,100,american toad,40,1
+n05,3,160,74,100,spring peeper,10,1
+n05,3,160,74,100,mountain chorus frog,30,2
+n05,3,160,74,100,upland chorus frog,20,1
+n05,3,160,74,100,wood frog,25,1
+n05,3,160,74,100,boreal toad,20,1
+n05,3,160,74,100,green frog,5,4
+n03,3,160,73,100,mountain chorus frog,15,4
+n03,3,160,73,100,upland chorus frog,50,3
+n03,3,160,73,100,wood frog,5,2
+n03,3,160,73,100,green frog,5,4
+n04,3,160,72,100,northern cricket frog,10,1
+n04,3,160,72,100,mountain cricket frog,10,1
+n04,3,160,72,100,spring peeper,5,4
+n04,3,160,72,100,northern leopard frog,10,1
+n04,3,160,72,100,mountain chorus frog,10,4
+n04,3,160,72,100,upland chorus frog,20,1
+n04,3,160,72,100,american toad,30,1
+n02,3,160,72,100,northern leopard frog,5,1
+n02,3,160,72,100,mountain chorus frog,5,4
+n02,3,160,72,100,upland chorus frog,20,2
+n02,3,160,72,100,wood frog,15,2
+n02,3,160,72,100,green frog,30,3
+n02,3,160,72,100,american toad,10,3
+n01,3,160,71,100,northern cricket frog,40,1
+n01,3,160,71,100,mountain chorus frog,0,4
+s10,3,165,68,0,green frog,5,4
+s09,3,165,68,100,spring peeper,5,4
+s09,3,165,68,100,upland chorus frog,60,1
+s09,3,165,68,100,green frog,10,4
+s09,3,165,68,100,american bullfrog,60,1
+s09,3,165,68,100,gray tree frog,35,2
+s08,3,165,68,100,spring peeper,10,1
+s08,3,165,68,100,upland chorus frog,20,3
+s08,3,165,68,100,green frog,5,4
+s08,3,165,68,100,american bullfrog,40,3
+s07,3,165,68,100,boreal toad,20,1
+s07,3,165,68,100,spring peeper,10,3
+s07,3,165,68,100,western chorus frog,5,3
+s07,3,165,68,100,fowler's toad,5,1
+s07,3,165,68,100,mountain chorus frog,40,4
+s07,3,165,68,100,upland chorus frog,10,2
+s07,3,165,68,100,green frog,10,4
+s06,3,165,68,100,spring peeper,10,1
+s06,3,165,68,100,western chorus frog,5,2
+s06,3,165,68,100,northern leopard frog,5,1
+s06,3,165,68,100,mountain chorus frog,20,4
+s06,3,165,68,100,wood frog,15,2
+s06,3,165,68,100,green frog,15,4
+w10,3,167,60,0,spring peeper,5,1
+w10,3,167,60,0,wood frog,40,1
+w10,3,167,60,0,green frog,0,4
+w09,3,167,60,0,spring peeper,5,4
+w09,3,167,60,0,green frog,15,4
+w09,3,167,60,0,gray tree frog,35,1
+w08,3,167,60,0,spring peeper,10,2
+w08,3,167,60,0,western chorus frog,0,1
+w08,3,167,60,0,green frog,70,1
+w08,3,167,60,0,american toad,65,1
+w07,3,167,60,0,spring peeper,5,1
+w07,3,167,60,0,green frog,25,4
+w06,3,167,60,0,western chorus frog,5,4
+w06,3,167,60,0,green frog,90,4
+e08,3,168,58,0,spring peeper,10,1
+e08,3,168,58,0,western chorus frog,5,4
+e08,3,168,58,0,northern leopard frog,10,1
+e08,3,168,58,0,mountain chorus frog,20,4
+e08,3,168,58,0,green frog,20,1
+e10,3,168,58,0,spring peeper,5,4
+e10,3,168,58,0,northern leopard frog,5,1
+e10,3,168,58,0,fowler's toad,10,1
+e10,3,168,58,0,mountain chorus frog,15,3
+e10,3,168,58,0,green frog,70,3
+e09,3,168,57,0,spring peeper,15,1
+e09,3,168,57,0,western chorus frog,5,4
+e09,3,168,57,0,northern leopard frog,5,2
+e09,3,168,57,0,fowler's toad,5,3
+e09,3,168,57,0,mountain chorus frog,30,2
+e09,3,168,57,0,green frog,55,4
+e07,3,168,57,0,spring peeper,10,1
+e07,3,168,57,0,northern leopard frog,5,1
+e07,3,168,57,0,mountain chorus frog,35,1
+e07,3,168,57,0,green frog,130,2
+e06,3,168,57,0,spring peeper,10,1
+e06,3,168,57,0,western chorus frog,5,2
+e06,3,168,57,0,fowler's toad,20,1
+e06,3,168,57,0,mountain chorus frog,50,4
+e06,3,168,57,0,green frog,70,3
+e05,3,168,57,0,spring peeper,5,1
+e05,3,168,57,0,western chorus frog,0,2
+e05,3,168,57,0,fowler's toad,45,1
+e05,3,168,57,0,mountain chorus frog,10,4
+e05,3,168,57,0,green frog,10,3
+e04,3,168,56,0,blanchard's cricket frog,55,1
+e04,3,168,56,0,spring peeper,5,3
+e04,3,168,56,0,western chorus frog,5,2
+e04,3,168,56,0,fowler's toad,5,1
+e04,3,168,56,0,mountain chorus frog,20,3
+e04,3,168,56,0,wood frog,25,1
+e04,3,168,56,0,green frog,30,4
+e03,3,168,57,0,none,0,0
+,,,,,,,
+,,,,,,,
+,,,,,,,
+s05,3,170,67,0,boreal toad,20,2
+s05,3,170,67,0,spring peeper,0,3
+s05,3,170,67,0,western chorus frog,0,2
+s05,3,170,67,0,northern leopard frog,5,2
+s05,3,170,67,0,mountain chorus frog,40,3
+s05,3,170,67,0,upland chorus frog,35,1
+s05,3,170,67,0,green frog,40,4
+s04,3,170,67,0,western chorus frog,5,4
+s04,3,170,67,0,fowler's toad,40,1
+s04,3,170,67,0,mountain chorus frog,50,4
+s04,3,170,67,0,upland chorus frog,15,2
+s04,3,170,67,0,wood frog,55,1
+s04,3,170,67,0,green frog,80,1
+s03,3,170,67,0,western chorus frog,5,2
+s03,3,170,67,0,mountain chorus frog,10,4
+s03,3,170,67,0,wood frog,35,1
+s02,3,170,67,0,boreal toad,20,1
+s02,3,170,67,0,mountain chorus frog,20,4
+s02,3,170,67,0,green frog,120,1
+s01,3,170,67,25,western chorus frog,5,4
+s01,3,170,67,25,mountain chorus frog,10,3
+s01,3,170,67,25,wood frog,35,2
+s01,3,170,67,25,green frog,75,1
+center,3,170,67,50,mountain chorus frog,5,4
+w01,3,170,67,100,western chorus frog,5,2
+w01,3,170,67,100,mountain chorus frog,25,3
+w01,3,170,67,100,wood frog,20,2
+w01,3,170,67,100,green frog,5,3
+w02,3,170,66,50,boreal toad,30,1
+w02,3,170,66,50,spring peeper,10,1
+w02,3,170,66,50,western chorus frog,5,2
+w02,3,170,66,50,mountain chorus frog,10,4
+w02,3,170,66,50,upland chorus frog,90,1
+w02,3,170,66,50,wood frog,35,3
+w02,3,170,66,50,green frog,65,4
+w03,3,170,65,25,blanchard's cricket frog,10,1
+w03,3,170,65,25,mountain cricket frog,5,1
+w03,3,170,65,25,spring peeper,10,1
+w03,3,170,65,25,western chorus frog,0,2
+w03,3,170,65,25,mountain chorus frog,30,4
+w03,3,170,65,25,wood frog,40,1
+w03,3,170,65,25,green frog,95,2
+w04,3,170,65,25,blanchard's cricket frog,60,1
+w04,3,170,65,25,western chorus frog,5,3
+w04,3,170,65,25,mountain chorus frog,25,4
+w04,3,170,65,25,wood frog,30,3
+w04,3,170,65,25,green frog,35,4
+w05,3,170,65,25,western chorus frog,5,3
+w05,3,170,65,25,fowler's toad,35,1
+w05,3,170,65,25,mountain chorus frog,10,2
+w05,3,170,65,25,green frog,75,4
+e01,3,171,72,0,spring peeper,10,1
+e01,3,171,72,0,western chorus frog,0,3
+e01,3,171,72,0,northern leopard frog,5,1
+e01,3,171,72,0,mountain chorus frog,25,4
+e01,3,171,72,0,wood frog,40,1
+e01,3,171,72,0,green frog,15,1
+e02,3,171,72,0,blanchard's cricket frog,25,2
+e02,3,171,72,0,spring peeper,5,1
+e02,3,171,72,0,western chorus frog,5,2
+e02,3,171,72,0,mountain chorus frog,30,1
+e02,3,171,72,0,wood frog,15,1
+e02,3,171,72,0,green frog,40,2
